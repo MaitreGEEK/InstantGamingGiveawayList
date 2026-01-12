@@ -5,7 +5,29 @@ interface Giveaway {
   active?: boolean;
 }
 
-const jsonData = await Bun.file('json.json').json() as Giveaway[];
+const rawData = await Bun.file('json.json').json();
+
+// Handle different JSON structures
+let jsonData: Giveaway[];
+
+if (Array.isArray(rawData)) {
+  jsonData = rawData;
+} else if (rawData.giveaways && Array.isArray(rawData.giveaways)) {
+  jsonData = rawData.giveaways;
+} else if (typeof rawData === 'object') {
+  // Convert object to array
+  jsonData = Object.entries(rawData).map(([key, value]: [string, any]) => ({
+    slug: value.slug || key,
+    name: value.name || key,
+    url: value.url || `https://www.instant-gaming.com/fr/giveaway/${value.slug || key}`,
+    active: value.active !== false
+  }));
+} else {
+  console.error('❌ Invalid JSON structure');
+  process.exit(1);
+}
+
+console.log(`📊 Found ${jsonData.length} giveaways`);
 
 // Generate markdown table
 const activeGiveaways = jsonData.filter(g => g.active !== false);
