@@ -60,5 +60,5 @@ if (data.dead.length > 0) {
 
 markdown += `\n---\n\n**Found a new giveaway?** Edit \`json.json\` and submit a PR!\n`;
 
-await Bun.write('README.md', markdown);
+await Bun.write('readme.md', markdown);
 console.log('✅ README updated with', data.alive.length, 'active giveaways');
