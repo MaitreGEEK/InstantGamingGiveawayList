@@ -1,11 +1,11 @@
 # InstantGaming's Giveaway List
 
 > Auto-updated from `json.json` via GitHub Actions  
-> Last update: 1/12/2026, 4:22:27 PM
+> Last update: 1/12/2026, 4:23:02 PM
 
 ## 🚀 Quick Actions
 
-**Open All Active Giveaways (104):**  
+**Open All Active Giveaways (105):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.alive.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
@@ -29,11 +29,14 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 
 ---
 
-## 🟢 Active Giveaways (104)
+## 🟢 Active Giveaways (105)
 
 <p id="giveaways" align="left">
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BOBLENNON" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="BOBLENNON" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/YUUHI" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="YUUHI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMING" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INSTANTGAMING" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
@@ -349,6 +352,7 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | Slug | Direct Link |
 |------|-------------|
 | `BOBLENNON` | [Participate](https://www.instant-gaming.com/fr/giveaway/BOBLENNON) |
+| `YUUHI` | [Participate](https://www.instant-gaming.com/fr/giveaway/YUUHI) |
 | `INSTANTGAMING` | [Participate](https://www.instant-gaming.com/fr/giveaway/INSTANTGAMING) |
 | `SUPREMELEADER` | [Participate](https://www.instant-gaming.com/fr/giveaway/SUPREMELEADER) |
 | `ICONOBLAST` | [Participate](https://www.instant-gaming.com/fr/giveaway/ICONOBLAST) |
