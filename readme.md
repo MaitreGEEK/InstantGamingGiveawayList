@@ -1,17 +1,17 @@
 # InstantGaming's Giveaway List
 
 > Auto-updated from `json.json` via GitHub Actions  
-> Last update: 1/12/2026, 4:15:16 PM
+> Last update: 1/12/2026, 4:16:18 PM
 
 ## 🚀 Quick Actions
 
-**Open All Active Giveaways (105):**  
+**Open All Active Giveaways (103):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.alive.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
 ```
 
-**Open All Archived Giveaways (74):**  
+**Open All Archived Giveaways (76):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.dead.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
@@ -29,7 +29,7 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 
 ---
 
-## 🟢 Active Giveaways (105)
+## 🟢 Active Giveaways (103)
 
 <p id="giveaways" align="left">
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BOBLENNON" target="_blank" rel="noreferrer">
@@ -194,9 +194,6 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/snedgie" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="snedgie" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/mitasims" target="_blank" rel="noreferrer">
-        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="mitasims" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
-    </a>
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/officialinvictus" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="officialinvictus" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
@@ -283,9 +280,6 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
     </a>
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/HeyStan" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="HeyStan" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
-    </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/TraKe" target="_blank" rel="noreferrer">
-        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="TraKe" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Drunge" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Drunge" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
@@ -405,7 +399,6 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `instantgamingde` | [Participate](https://www.instant-gaming.com/fr/giveaway/instantgamingde) |
 | `INSTANTGAMINGPL` | [Participate](https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGPL) |
 | `snedgie` | [Participate](https://www.instant-gaming.com/fr/giveaway/snedgie) |
-| `mitasims` | [Participate](https://www.instant-gaming.com/fr/giveaway/mitasims) |
 | `officialinvictus` | [Participate](https://www.instant-gaming.com/fr/giveaway/officialinvictus) |
 | `GCA` | [Participate](https://www.instant-gaming.com/fr/giveaway/GCA) |
 | `tahva` | [Participate](https://www.instant-gaming.com/fr/giveaway/tahva) |
@@ -435,7 +428,6 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `kemist` | [Participate](https://www.instant-gaming.com/fr/giveaway/kemist) |
 | `MFGAMING` | [Participate](https://www.instant-gaming.com/fr/giveaway/MFGAMING) |
 | `HeyStan` | [Participate](https://www.instant-gaming.com/fr/giveaway/HeyStan) |
-| `TraKe` | [Participate](https://www.instant-gaming.com/fr/giveaway/TraKe) |
 | `Drunge` | [Participate](https://www.instant-gaming.com/fr/giveaway/Drunge) |
 | `Zazza23` | [Participate](https://www.instant-gaming.com/fr/giveaway/Zazza23) |
 | `BlackPommes` | [Participate](https://www.instant-gaming.com/fr/giveaway/BlackPommes) |
@@ -458,12 +450,13 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `huebi` | [Participate](https://www.instant-gaming.com/fr/giveaway/huebi) |
 
 <details>
-<summary>🔴 Archived/Dead Giveaways (74)</summary>
+<summary>🔴 Archived/Dead Giveaways (76)</summary>
 
 | Slug | Link |
 |------|------|
 | `miriampetricor` | ~~https://www.instant-gaming.com/fr/giveaway/miriampetricor~~ |
 | `AYPIERRE` | ~~https://www.instant-gaming.com/fr/giveaway/AYPIERRE~~ |
+| `mitasims` | ~~https://www.instant-gaming.com/fr/giveaway/mitasims~~ |
 | `Bayliun` | ~~https://www.instant-gaming.com/fr/giveaway/Bayliun~~ |
 | `linca` | ~~https://www.instant-gaming.com/fr/giveaway/linca~~ |
 | `RADWEASEL` | ~~https://www.instant-gaming.com/fr/giveaway/RADWEASEL~~ |
@@ -481,6 +474,7 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `JOGASIMPLES` | ~~https://www.instant-gaming.com/fr/giveaway/JOGASIMPLES~~ |
 | `EUROGAMERPT` | ~~https://www.instant-gaming.com/fr/giveaway/EUROGAMERPT~~ |
 | `cooptv` | ~~https://www.instant-gaming.com/fr/giveaway/cooptv~~ |
+| `TraKe` | ~~https://www.instant-gaming.com/fr/giveaway/TraKe~~ |
 | `KAMUSLOL` | ~~https://www.instant-gaming.com/fr/giveaway/KAMUSLOL~~ |
 | `HOROKUSSA` | ~~https://www.instant-gaming.com/fr/giveaway/HOROKUSSA~~ |
 | `PIXIA` | ~~https://www.instant-gaming.com/fr/giveaway/PIXIA~~ |
