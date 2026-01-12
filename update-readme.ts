@@ -1,63 +1,64 @@
-interface Giveaway {
-  slug: string;
-  name: string;
-  url: string;
-  active?: boolean;
+interface GiveawayJSON {
+  alive: string[];
+  dead: string[];
 }
 
-const rawData = await Bun.file('json.json').json();
+const data = await Bun.file('json.json').json() as GiveawayJSON;
 
-// Handle different JSON structures
-let jsonData: Giveaway[];
+console.log(`📊 ${data.alive.length} alive | ${data.dead.length} dead`);
 
-if (Array.isArray(rawData)) {
-  jsonData = rawData;
-} else if (rawData.giveaways && Array.isArray(rawData.giveaways)) {
-  jsonData = rawData.giveaways;
-} else if (typeof rawData === 'object') {
-  // Convert object to array
-  jsonData = Object.entries(rawData).map(([key, value]: [string, any]) => ({
-    slug: value.slug || key,
-    name: value.name || key,
-    url: value.url || `https://www.instant-gaming.com/fr/giveaway/${value.slug || key}`,
-    active: value.active !== false
-  }));
-} else {
-  console.error('❌ Invalid JSON structure');
-  process.exit(1);
-}
+// Generate markdown
+let markdown = `# InstantGaming's Giveaway List
 
-console.log(`📊 Found ${jsonData.length} giveaways`);
+> Auto-updated from \`json.json\` via GitHub Actions  
+> Last update: ${new Date().toLocaleString('en-US', { timeZone: 'CET' })}
 
-// Generate markdown table
-const activeGiveaways = jsonData.filter(g => g.active !== false);
-const inactiveGiveaways = jsonData.filter(g => g.active === false);
+## How to participate?
 
-let markdown = `# InstantGaming Giveaway List
+### Manually
+Create an account on [Instant Gaming](https://www.instant-gaming.com) and click on the links below.
 
-> Auto-updated from \`json.json\` via GitHub Actions
+### Automatically
+Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-AutoParticipate) for auto-participation.
 
-## Active Giveaways (${activeGiveaways.length})
+---
 
-| Name | Link |
-|------|------|
+## 🟢 Active Giveaways (${data.alive.length})
+
 `;
 
-activeGiveaways.forEach(g => {
-  markdown += `| ${g.name} | [Participate](${g.url}) |\n`;
+// Generate HTML images section like original
+markdown += `<p id="giveaways" align="left">\n`;
+
+data.alive.forEach(slug => {
+  const url = `https://www.instant-gaming.com/fr/giveaway/${slug}?igr=jaha`;
+  const imgUrl = `https://gaming-cdn.com/images/avatars/default.jpg`;
+  markdown += `    <a class="giveaway" href="${url}" target="_blank" rel="noreferrer">
+        <img src="${imgUrl}" alt="${slug}" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>\n`;
 });
 
-if (inactiveGiveaways.length > 0) {
-  markdown += `\n## Archived Giveaways (${inactiveGiveaways.length})\n\n`;
-  markdown += `<details>\n<summary>Show archived</summary>\n\n`;
-  markdown += `| Name | Link |\n|------|------|\n`;
-  inactiveGiveaways.forEach(g => {
-    markdown += `| ${g.name} | ~~${g.url}~~ |\n`;
+markdown += `</p>\n\n`;
+
+// Markdown table fallback
+markdown += `| Slug | Direct Link |\n`;
+markdown += `|------|-------------|\n`;
+data.alive.forEach(slug => {
+  const url = `https://www.instant-gaming.com/fr/giveaway/${slug}`;
+  markdown += `| \`${slug}\` | [Participate](${url}) |\n`;
+});
+
+// Dead giveaways in collapsed section
+if (data.dead.length > 0) {
+  markdown += `\n<details>\n<summary>🔴 Archived/Dead Giveaways (${data.dead.length})</summary>\n\n`;
+  markdown += `| Slug | Link |\n|------|------|\n`;
+  data.dead.forEach(slug => {
+    markdown += `| \`${slug}\` | ~~https://www.instant-gaming.com/fr/giveaway/${slug}~~ |\n`;
   });
   markdown += `\n</details>\n`;
 }
 
-markdown += `\n---\n*Last updated: ${new Date().toISOString()}*\n`;
+markdown += `\n---\n\n**Found a new giveaway?** Edit \`json.json\` and submit a PR!\n`;
 
 await Bun.write('README.md', markdown);
-console.log('✅ README updated');
+console.log('✅ README updated with', data.alive.length, 'active giveaways');
