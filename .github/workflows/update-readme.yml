@@ -2,8 +2,6 @@ name: Update README from JSON
 
 on:
   push:
-    branches:
-      - patch-1
     paths:
       - 'json.json'
   workflow_dispatch:
@@ -25,5 +23,5 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git diff --quiet || (git add README.md && git commit -m "🤖 Update README from json.json")
+          git diff --quiet || (git add readme.md && git commit -m "🤖 Update README from json.json")
           git push
