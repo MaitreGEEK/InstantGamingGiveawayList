@@ -13,6 +13,22 @@ let markdown = `# InstantGaming's Giveaway List
 > Auto-updated from \`json.json\` via GitHub Actions  
 > Last update: ${new Date().toLocaleString('en-US', { timeZone: 'CET' })}
 
+## 🚀 Quick Actions
+
+**Open All Active Giveaways (${data.alive.length}):**  
+Drag this bookmarklet to your bookmarks bar →
+\`\`\`javascript
+javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.alive.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
+\`\`\`
+
+**Open All Archived Giveaways (${data.dead.length}):**  
+Drag this bookmarklet to your bookmarks bar →
+\`\`\`javascript
+javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.dead.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
+\`\`\`
+
+---
+
 ## How to participate?
 
 ### Manually
@@ -27,11 +43,11 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 
 `;
 
-// Generate HTML images section like original
+// Generate HTML images section
 markdown += `<p id="giveaways" align="left">\n`;
 
 data.alive.forEach(slug => {
-  const url = `https://www.instant-gaming.com/fr/giveaway/${slug}?igr=jaha`;
+  const url = `https://www.instant-gaming.com/fr/giveaway/${slug}`;
   const imgUrl = `https://gaming-cdn.com/images/avatars/default.jpg`;
   markdown += `    <a class="giveaway" href="${url}" target="_blank" rel="noreferrer">
         <img src="${imgUrl}" alt="${slug}" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
@@ -61,4 +77,4 @@ if (data.dead.length > 0) {
 markdown += `\n---\n\n**Found a new giveaway?** Edit \`json.json\` and submit a PR!\n`;
 
 await Bun.write('readme.md', markdown);
-console.log('✅ README updated with', data.alive.length, 'active giveaways');
+console.log('✅ readme.md updated with', data.alive.length, 'active giveaways');
