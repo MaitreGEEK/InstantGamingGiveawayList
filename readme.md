@@ -1,7 +1,23 @@
 # InstantGaming's Giveaway List
 
 > Auto-updated from `json.json` via GitHub Actions  
-> Last update: 1/12/2026, 3:58:56 PM
+> Last update: 1/12/2026, 4:08:08 PM
+
+## 🚀 Quick Actions
+
+**Open All Active Giveaways (107):**  
+Drag this bookmarklet to your bookmarks bar →
+```javascript
+javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.alive.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
+```
+
+**Open All Archived Giveaways (72):**  
+Drag this bookmarklet to your bookmarks bar →
+```javascript
+javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.dead.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
+```
+
+---
 
 ## How to participate?
 
@@ -16,325 +32,325 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 ## 🟢 Active Giveaways (107)
 
 <p id="giveaways" align="left">
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BOBLENNON?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BOBLENNON" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="BOBLENNON" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMING?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMING" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INSTANTGAMING" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/SUPREMELEADER?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/SUPREMELEADER" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="SUPREMELEADER" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ICONOBLAST?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ICONOBLAST" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ICONOBLAST" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/bugland?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/bugland" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="bugland" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GAMEMOVIELAND?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GAMEMOVIELAND" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="GAMEMOVIELAND" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CODQG?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CODQG" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="CODQG" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/NALFEINN?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/NALFEINN" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="NALFEINN" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/VARG?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/VARG" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="VARG" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/skyyart?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/skyyart" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="skyyart" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ALKOR?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ALKOR" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ALKOR" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ROBERT?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ROBERT" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ROBERT" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GAMEWAVE?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GAMEWAVE" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="GAMEWAVE" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/RATSUPER?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/RATSUPER" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="RATSUPER" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/YANKA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/YANKA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="YANKA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/STREAMRUNNERS?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/STREAMRUNNERS" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="STREAMRUNNERS" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/MeetTheMyth?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/MeetTheMyth" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="MeetTheMyth" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PHENRIR?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PHENRIR" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="PHENRIR" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GMODFR?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GMODFR" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="GMODFR" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGES?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGES" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INSTANTGAMINGES" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ACRE?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ACRE" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ACRE" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BILLYCHEROKEE?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BILLYCHEROKEE" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="BILLYCHEROKEE" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/LYNX?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/LYNX" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="LYNX" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ZONALEROS?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ZONALEROS" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ZONALEROS" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GUIGUI?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GUIGUI" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="GUIGUI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PORAID?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PORAID" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="PORAID" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGPT?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGPT" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INSTANTGAMINGPT" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/TOMBIE?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/TOMBIE" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="TOMBIE" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/muusoo?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/muusoo" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="muusoo" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/xariel?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/xariel" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="xariel" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/POKEMONMILLENNIUM?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/POKEMONMILLENNIUM" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="POKEMONMILLENNIUM" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/AQUIYAHORA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/AQUIYAHORA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="AQUIYAHORA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PIVI?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PIVI" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="PIVI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Seals311?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Seals311" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Seals311" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/vicio?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/vicio" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="vicio" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGITALIA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGITALIA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INSTANTGAMINGITALIA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INFOPOINT-ITALIA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INFOPOINT-ITALIA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INFOPOINT-ITALIA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/FROZ3N?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/FROZ3N" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="FROZ3N" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ELOTRIX?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ELOTRIX" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ELOTRIX" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/NYKK3?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/NYKK3" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="NYKK3" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PLAYERINSIDE?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PLAYERINSIDE" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="PLAYERINSIDE" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ILGATTOSULTUBO?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ILGATTOSULTUBO" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ILGATTOSULTUBO" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/FRANCESCOPARDINI?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/FRANCESCOPARDINI" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="FRANCESCOPARDINI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/NU89?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/NU89" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="NU89" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ITERMOSIFONI?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ITERMOSIFONI" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ITERMOSIFONI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CORYPHEUS?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CORYPHEUS" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="CORYPHEUS" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/THETJI?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/THETJI" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="THETJI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/deladysigner?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/deladysigner" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="deladysigner" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/KURU?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/KURU" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="KURU" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/biffa?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/biffa" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="biffa" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/K0MPA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/K0MPA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="K0MPA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/instantgamingde?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/instantgamingde" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="instantgamingde" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGPL?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/INSTANTGAMINGPL" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="INSTANTGAMINGPL" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/snedgie?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/snedgie" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="snedgie" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/mitasims?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/mitasims" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="mitasims" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/officialinvictus?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/officialinvictus" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="officialinvictus" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GCA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GCA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="GCA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/tahva?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/tahva" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="tahva" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/frankieslair?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/frankieslair" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="frankieslair" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GIORNOGAMING?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/GIORNOGAMING" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="GIORNOGAMING" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/SOLOUMIDO?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/SOLOUMIDO" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="SOLOUMIDO" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CYBERLUK?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CYBERLUK" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="CYBERLUK" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/STELIUS?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/STELIUS" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="STELIUS" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CSGOFR?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CSGOFR" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="CSGOFR" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/EXOMADARA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/EXOMADARA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="EXOMADARA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/KWOREY?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/KWOREY" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="KWOREY" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PHOTORACERTV?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/PHOTORACERTV" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="PHOTORACERTV" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ARLAN360?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ARLAN360" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ARLAN360" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/j0nathan?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/j0nathan" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="j0nathan" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/HEIKKI360?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/HEIKKI360" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="HEIKKI360" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/topgames?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/topgames" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="topgames" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CABRAVOLADORA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/CABRAVOLADORA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="CABRAVOLADORA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/DRWAL?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/DRWAL" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="DRWAL" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/MERTA?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/MERTA" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="MERTA" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/IMPAKT?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/IMPAKT" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="IMPAKT" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/kiszak?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/kiszak" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="kiszak" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/playluque?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/playluque" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="playluque" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/STRADI?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/STRADI" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="STRADI" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/poro?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/poro" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="poro" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/DESASTRESHOW?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/DESASTRESHOW" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="DESASTRESHOW" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/JOFRIK99?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/JOFRIK99" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="JOFRIK99" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/kemist?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/kemist" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="kemist" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/MFGAMING?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/MFGAMING" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="MFGAMING" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/HeyStan?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/HeyStan" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="HeyStan" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/TraKe?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/TraKe" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="TraKe" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Drunge?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Drunge" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Drunge" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Zazza23?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Zazza23" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Zazza23" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BlackPommes?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BlackPommes" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="BlackPommes" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Bayliun?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Bayliun" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Bayliun" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/LUSORKOEFFIZIENT?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/LUSORKOEFFIZIENT" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="LUSORKOEFFIZIENT" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/quantoquevaicustar?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/quantoquevaicustar" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="quantoquevaicustar" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/eusouocap?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/eusouocap" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="eusouocap" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/joepad17?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/joepad17" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="joepad17" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/vutomy?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/vutomy" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="vutomy" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/elkai?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/elkai" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="elkai" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/onlywaifu?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/onlywaifu" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="onlywaifu" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/cryzenx?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/cryzenx" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="cryzenx" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/naito75?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/naito75" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="naito75" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/remedy?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/remedy" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="remedy" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/losiu?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/losiu" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="losiu" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/azhunky?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/azhunky" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="azhunky" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ramosturbo?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ramosturbo" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ramosturbo" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/mello?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/mello" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="mello" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/pixelade?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/pixelade" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="pixelade" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/carinazinhaa?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/carinazinhaa" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="carinazinhaa" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/huebi?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/huebi" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="huebi" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/miriampetricor?igr=jaha" target="_blank" rel="noreferrer">
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/miriampetricor" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="miriampetricor" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
 </p>
