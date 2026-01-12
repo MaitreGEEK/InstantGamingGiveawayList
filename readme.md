@@ -1,17 +1,17 @@
 # InstantGaming's Giveaway List
 
 > Auto-updated from `json.json` via GitHub Actions  
-> Last update: 1/12/2026, 4:14:25 PM
+> Last update: 1/12/2026, 4:15:16 PM
 
 ## 🚀 Quick Actions
 
-**Open All Active Giveaways (106):**  
+**Open All Active Giveaways (105):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.alive.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
 ```
 
-**Open All Archived Giveaways (73):**  
+**Open All Archived Giveaways (74):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.dead.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
@@ -29,7 +29,7 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 
 ---
 
-## 🟢 Active Giveaways (106)
+## 🟢 Active Giveaways (105)
 
 <p id="giveaways" align="left">
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BOBLENNON" target="_blank" rel="noreferrer">
@@ -296,9 +296,6 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/BlackPommes" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="BlackPommes" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
-    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Bayliun" target="_blank" rel="noreferrer">
-        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Bayliun" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
-    </a>
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/LUSORKOEFFIZIENT" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="LUSORKOEFFIZIENT" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
@@ -442,7 +439,6 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `Drunge` | [Participate](https://www.instant-gaming.com/fr/giveaway/Drunge) |
 | `Zazza23` | [Participate](https://www.instant-gaming.com/fr/giveaway/Zazza23) |
 | `BlackPommes` | [Participate](https://www.instant-gaming.com/fr/giveaway/BlackPommes) |
-| `Bayliun` | [Participate](https://www.instant-gaming.com/fr/giveaway/Bayliun) |
 | `LUSORKOEFFIZIENT` | [Participate](https://www.instant-gaming.com/fr/giveaway/LUSORKOEFFIZIENT) |
 | `quantoquevaicustar` | [Participate](https://www.instant-gaming.com/fr/giveaway/quantoquevaicustar) |
 | `eusouocap` | [Participate](https://www.instant-gaming.com/fr/giveaway/eusouocap) |
@@ -462,12 +458,13 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `huebi` | [Participate](https://www.instant-gaming.com/fr/giveaway/huebi) |
 
 <details>
-<summary>🔴 Archived/Dead Giveaways (73)</summary>
+<summary>🔴 Archived/Dead Giveaways (74)</summary>
 
 | Slug | Link |
 |------|------|
 | `miriampetricor` | ~~https://www.instant-gaming.com/fr/giveaway/miriampetricor~~ |
 | `AYPIERRE` | ~~https://www.instant-gaming.com/fr/giveaway/AYPIERRE~~ |
+| `Bayliun` | ~~https://www.instant-gaming.com/fr/giveaway/Bayliun~~ |
 | `linca` | ~~https://www.instant-gaming.com/fr/giveaway/linca~~ |
 | `RADWEASEL` | ~~https://www.instant-gaming.com/fr/giveaway/RADWEASEL~~ |
 | `DIABEUU` | ~~https://www.instant-gaming.com/fr/giveaway/DIABEUU~~ |
