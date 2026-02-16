@@ -1,17 +1,17 @@
 # InstantGaming's Giveaway List
 
 > Auto-updated from `json.json` via GitHub Actions  
-> Last update: 2/12/2026, 4:54:27 PM
+> Last update: 2/16/2026, 7:36:03 PM
 
 ## 🚀 Quick Actions
 
-**Open All Active Giveaways (115):**  
+**Open All Active Giveaways (125):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.alive.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
 ```
 
-**Open All Archived Giveaways (154):**  
+**Open All Archived Giveaways (168):**  
 Drag this bookmarklet to your bookmarks bar →
 ```javascript
 javascript:(function(){fetch('https://raw.githubusercontent.com/MaitreGEEK/InstantGamingGiveawayList/main/json.json').then(r=>r.json()).then(d=>{d.dead.forEach((s,i)=>setTimeout(()=>window.open('https://www.instant-gaming.com/fr/giveaway/'+s),i*300))})})()
@@ -29,7 +29,7 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 
 ---
 
-## 🟢 Active Giveaways (115)
+## 🟢 Active Giveaways (125)
 
 <p id="giveaways" align="left">
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/3ldiablo89" target="_blank" rel="noreferrer">
@@ -377,6 +377,36 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
     <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/ZONALEROS" target="_blank" rel="noreferrer">
         <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="ZONALEROS" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
     </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Xip4" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Xip4" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/D4WS7N" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="D4WS7N" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/T4ISON" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="T4ISON" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/Diables" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="Diables" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/OVERCHARGEDEGG" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="OVERCHARGEDEGG" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/lunadix28" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="lunadix28" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/junajted" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="junajted" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/polman" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="polman" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/larsi" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="larsi" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
+    <a class="giveaway" href="https://www.instant-gaming.com/fr/giveaway/zellendust" target="_blank" rel="noreferrer">
+        <img src="https://gaming-cdn.com/images/avatars/default.jpg" alt="zellendust" width="76" height="76" onerror="this.src='https://gaming-cdn.com/themes/igv2/images/avatar2.svg'" />
+    </a>
 </p>
 
 | Slug | Direct Link |
@@ -496,9 +526,19 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `YUUHI` | [Participate](https://www.instant-gaming.com/fr/giveaway/YUUHI) |
 | `Zazza23` | [Participate](https://www.instant-gaming.com/fr/giveaway/Zazza23) |
 | `ZONALEROS` | [Participate](https://www.instant-gaming.com/fr/giveaway/ZONALEROS) |
+| `Xip4` | [Participate](https://www.instant-gaming.com/fr/giveaway/Xip4) |
+| `D4WS7N` | [Participate](https://www.instant-gaming.com/fr/giveaway/D4WS7N) |
+| `T4ISON` | [Participate](https://www.instant-gaming.com/fr/giveaway/T4ISON) |
+| `Diables` | [Participate](https://www.instant-gaming.com/fr/giveaway/Diables) |
+| `OVERCHARGEDEGG` | [Participate](https://www.instant-gaming.com/fr/giveaway/OVERCHARGEDEGG) |
+| `lunadix28` | [Participate](https://www.instant-gaming.com/fr/giveaway/lunadix28) |
+| `junajted` | [Participate](https://www.instant-gaming.com/fr/giveaway/junajted) |
+| `polman` | [Participate](https://www.instant-gaming.com/fr/giveaway/polman) |
+| `larsi` | [Participate](https://www.instant-gaming.com/fr/giveaway/larsi) |
+| `zellendust` | [Participate](https://www.instant-gaming.com/fr/giveaway/zellendust) |
 
 <details>
-<summary>🔴 Archived/Dead Giveaways (154)</summary>
+<summary>🔴 Archived/Dead Giveaways (168)</summary>
 
 | Slug | Link |
 |------|------|
@@ -656,6 +696,20 @@ Install [this userscript](https://github.com/enzomtpYT/InstantGaming-Giveaway-Au
 | `yambalu` | ~~https://www.instant-gaming.com/fr/giveaway/yambalu~~ |
 | `ZUNK` | ~~https://www.instant-gaming.com/fr/giveaway/ZUNK~~ |
 | `zwave` | ~~https://www.instant-gaming.com/fr/giveaway/zwave~~ |
+| `largetaytertots` | ~~https://www.instant-gaming.com/fr/giveaway/largetaytertots~~ |
+| `TALRINO` | ~~https://www.instant-gaming.com/fr/giveaway/TALRINO~~ |
+| `KENY500` | ~~https://www.instant-gaming.com/fr/giveaway/KENY500~~ |
+| `GAMING06` | ~~https://www.instant-gaming.com/fr/giveaway/GAMING06~~ |
+| `BORJAZAZO` | ~~https://www.instant-gaming.com/fr/giveaway/BORJAZAZO~~ |
+| `SOFIANLEGEEK` | ~~https://www.instant-gaming.com/fr/giveaway/SOFIANLEGEEK~~ |
+| `REPLAYTUGA` | ~~https://www.instant-gaming.com/fr/giveaway/REPLAYTUGA~~ |
+| `StevenTed` | ~~https://www.instant-gaming.com/fr/giveaway/StevenTed~~ |
+| `londyslounge` | ~~https://www.instant-gaming.com/fr/giveaway/londyslounge~~ |
+| `kakosxamos` | ~~https://www.instant-gaming.com/fr/giveaway/kakosxamos~~ |
+| `cronos` | ~~https://www.instant-gaming.com/fr/giveaway/cronos~~ |
+| `POKEMONRAIDITALIA` | ~~https://www.instant-gaming.com/fr/giveaway/POKEMONRAIDITALIA~~ |
+| `gustingorriz` | ~~https://www.instant-gaming.com/fr/giveaway/gustingorriz~~ |
+| `davidvinc` | ~~https://www.instant-gaming.com/fr/giveaway/davidvinc~~ |
 
 </details>
 
